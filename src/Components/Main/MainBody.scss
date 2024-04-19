@@ -1,0 +1,21 @@
+.mainbody{ 
+    padding:  12px 80px;
+    background: #D6D7EF;
+    height: 80vh;
+    position: relative;
+    overflow-y: auto;
+}
+
+
+
+
+
+
+
+// **************  MEDIA QUERY **************
+
+@media screen  and (max-width:500px) {
+    .mainbody{ 
+      padding: 12px;
+    }
+  }

@@ -1,0 +1,21 @@
+.Header{ 
+    background: #9395D3;
+    color: #fff;
+    text-align: end;
+    padding:  12px 80px;
+    height: 10vh;
+}
+
+
+
+
+
+
+
+// **************  MEDIA QUERY **************
+
+@media screen  and (max-width:500px) {
+    .Header{ 
+      padding: 12px;
+    }
+  }

@@ -1,0 +1,91 @@
+.addtodopage{ 
+    background: #fff;
+    .header2{ 
+        background: #9395D3;
+        color: #fff;
+        text-align: center;
+        font-size: 20px; 
+        font-weight: 500;
+        padding:  12px 80px;
+        height: 10vh;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+    }
+    .input-div{ 
+        width: 90%;
+        max-width: 382px;
+        margin: auto;
+        text-align: center;
+        .input-item{ 
+                height: 56px;
+                font-size: 16px;
+                border-radius: 2px;
+                padding: 13px;
+                width: 88%;
+                border: 0;
+                border-bottom: 1px solid;
+                &:focus-visible{ 
+                    
+                    outline: 0;
+                }
+        }
+        .input-item2{ 
+            min-height: 90px;
+            border: 1px solid #f1eeee;
+        }
+    }
+    .addtaskbtn{ 
+        cursor: pointer; 
+        text-decoration: none;
+        margin: auto ;
+        margin-top: 24px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background: #9395D3; 
+        padding: 12px 20px ;
+        color: #fff;
+        width: 94%;
+        border-radius: 15px;
+        transition:ease-in 250ms ;
+        &:hover{ 
+            background-color: #9a9cdf;
+        }
+    }
+    .viewtaskbtn{ 
+        cursor: pointer; 
+        text-decoration: none;
+        margin: auto ;
+        margin-top: 24px;
+        display: flex; 
+        justify-content: center; 
+        align-items: center;
+        background: #e6e7ff; 
+        padding: 12px 20px ;
+        color: #9a9cdf;
+        width: 94%;
+        border-radius: 15px;
+        transition:ease-in 300ms ;
+        &:hover{ 
+            color: #787cf5;
+            background: #efefff;
+        }
+    }
+    .taskimage{ 
+        width: 100%;
+        margin: auto;
+    }
+    .vh-45{ 
+        height: 90vh;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .addtodopage{  
+        .vh-45{ 
+            height: 45vh;
+        }
+    }
+
+}
