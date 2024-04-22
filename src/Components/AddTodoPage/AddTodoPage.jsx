@@ -6,7 +6,7 @@ import MainBody from '../Main/MainBody'
 
 function AddTodoPage() {
   return (
-    <div className='addtodopage'>
+    <div className='addtodopage' id='addtodopage'>
       <div className="header2">  
          Add New Task
       </div>

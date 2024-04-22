@@ -39,11 +39,20 @@ function MainBody() {
   return (
     <div className='mainbody'>
         <div className="row"> 
-            {list1.map((data) => (
+
+        <div className="col-md-4"> 
+        <TodoItem title="My Task " text="Add Your First Task Now"/>
+        </div>
+
+
+
+
+
+            {/* {list1.map((data) => (
                  <div className="col-md-4"> 
                 <TodoItem title={data.heading} text={data.discription}/>
                 </div>
-            ))}
+            ))} */}
         </div>
     </div>
   )
